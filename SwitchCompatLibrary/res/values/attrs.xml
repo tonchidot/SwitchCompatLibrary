@@ -22,7 +22,7 @@
         <attr name="textColorHighlight" format="color"/>
         <attr name="textColorHint" format="color" />
         <attr name="textColorLink" format="color" />
-        <attr name="textAllCaps" format="boolean" />
+        <attr name="swTextAllCaps" format="boolean" />
     </declare-styleable>   
   
 </resources>

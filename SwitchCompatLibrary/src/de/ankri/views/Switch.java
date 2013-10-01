@@ -214,7 +214,7 @@ public class Switch extends CompoundButton
 
 		setSwitchTypefaceByIndex(typefaceIndex, styleIndex);
 
-		boolean allCaps = appearance.getBoolean(R.styleable.TextAppearanceSwitch_textAllCaps, false);
+		boolean allCaps = appearance.getBoolean(R.styleable.TextAppearanceSwitch_swTextAllCaps, false);
 		if (allCaps)
 		{
 			mSwitchTransformationMethod = new AllCapsTransformationMethod(getContext());
